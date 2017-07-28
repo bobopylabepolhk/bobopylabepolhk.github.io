@@ -1,0 +1,89 @@
+.team {
+    width: 100%;
+    height: 749px;
+    background-color: #f7f7f7;
+    margin-top: -21px;
+}
+
+.team-content {
+    margin-top: 19px;
+}
+
+.team-content__elem {
+    width: 500px;
+    display: flex;
+    margin-top: 76px;
+}
+
+.team-content__text {
+    margin-left: 23px;
+    margin-top: -40px;
+}
+
+.team-content__headline {
+    text-transform: uppercase;
+    color: #b5a263;
+    margin-bottom: -33px;
+}
+
+.team-content__appointment {
+    margin-bottom: -30px;
+}
+
+.team-content__social-icons {
+    width: 64px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    a {
+        color: #24282f;
+    }
+}
+
+
+@media(min-width:1432px) {
+    .team-content__elem {
+        flex-basis: 33%;
+    }
+}
+
+@media(max-width:1022px) {
+
+    .team {
+        height: 1070px;
+    }
+
+    .team-content {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .team-content__elem {
+        margin-left: 0;
+    }
+}
+
+@media(max-width:502px) {
+
+    .team {
+        height: 1150px;
+    }
+
+    .team-content__elem {
+        width: 100%;
+        flex:0 1 auto;
+    }
+}
+
+@media(max-width:384px) {
+    .team {
+        height: 1230px;
+    }
+}
+
+@media(max-width:322px) {
+    .team {
+        height: 1300px;
+    }
+}

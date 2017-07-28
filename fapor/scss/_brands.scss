@@ -1,0 +1,33 @@
+.brands {
+    width: 100%;
+    height: 169px;
+    background-color: #fff;
+}
+
+
+.brands-content {
+    margin-left: -95px;
+    align-items: center;
+    padding-top: 58px;
+}
+
+.brands-content__elem {
+    margin-left: 95px;
+}
+
+@media(max-width:1136px) {
+
+    .brands {
+        height: 475px;
+    }
+
+    .brands-content {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5px;
+    }
+
+    .brands-content__elem {
+        margin-top: 35px;
+    }
+}
