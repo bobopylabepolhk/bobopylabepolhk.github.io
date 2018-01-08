@@ -1,0 +1,1 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n():"function"==typeof define&&define.amd?define(n):n()}(0,function(){"use strict";const e=document.getElementById("menu"),n=document.getElementById("header");e.addEventListener("click",function(){n.classList.toggle("--menu-open")})});
