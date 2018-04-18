@@ -158,12 +158,6 @@
 }
 
 /* Default modifiers */
-/*
-.DayPicker-Day--today {
-  color: #ffffff;
-  background-color: #55a8fe;
-  border-radius: 50%;
-}*/
 
 .DayPicker-Day--outside {
   cursor: default;
@@ -173,7 +167,6 @@
 .DayPicker-Day--disabled {
   color: #ced0d3;
   cursor: default;
-  /* background-color: #eff1f1; */
 }
 
 /* Example modifiers */
@@ -190,7 +183,7 @@
   position: relative;
   color: #f0f8ff;
   background-color: #4a90e2;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside):hover {
@@ -200,7 +193,7 @@
 .DayPicker:not(.DayPicker--interactionDisabled)
   .DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {
   background-color: #e9ecef;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 /* DayPickerInput */
