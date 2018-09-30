@@ -1,0 +1,34 @@
+.reviews {
+  width: 83%;
+  margin: 20px auto;
+  margin-bottom: 45px;
+}
+
+
+@media (max-width: 768px) {
+  .reviews {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .reviews {
+    position: relative;
+    margin-bottom: 10px;
+    &::after {
+      @include angle;
+      left: 0;
+      border-top: 35px solid #f8f5f2;
+      border-left: 50.6vw solid transparent;
+      bottom: -45px;
+    }
+
+    &::before {
+      @include angle;
+      right: 0;
+      border-top: 35px solid #f8f5f2;
+      border-right: 50.6vw solid transparent;
+      bottom: -45px;
+    }
+  }
+}

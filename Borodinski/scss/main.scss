@@ -1,0 +1,28 @@
+@import 'header';
+@import 'radio-group';
+@import 'headline-and-btn';
+@import 'booking-form';
+@import 'checkbox-group';
+@import 'footer';
+@import 'stats-and-advantages';
+@import 'advantages';
+@import 'stats';
+@import 'news';
+@import 'date-polygon';
+@import 'reviews';
+@import 'slider';
+@import 'portfolio';
+@import 'photos';
+@import 'client';
+@import 'price';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f5f2;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
