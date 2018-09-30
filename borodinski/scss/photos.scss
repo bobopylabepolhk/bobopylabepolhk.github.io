@@ -1,0 +1,36 @@
+.photos {
+  width: 100%;
+  max-width: 1050px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;  
+  align-items: center;
+  justify-content: center;
+}
+
+.photos__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+@media (max-width: 1240px) {
+  .photos {
+    flex-direction: column;
+    @media (min-width: 769px) {
+      margin-top: -40px;
+    }
+  }
+
+  .photos__wrapper {
+    margin-top: 0px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .photos__wrapper {
+    align-items: center;
+  }
+}

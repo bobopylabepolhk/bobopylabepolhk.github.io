@@ -1,0 +1,171 @@
+@import 'mixins';
+
+.booking-form__section {
+  margin: 0px auto;
+  width: 83%;
+  &:not(:first-child) {
+    margin-top: 55px;
+  }
+
+  @media (max-width: 768px) {
+    &:nth-child(2) {
+      width: 100%;
+    }
+  }
+}
+
+.booking-form__row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  & .booking-form__input:last-child {
+    margin-right: 0px;
+  }
+}
+
+.booking-form__contact-info {
+  width: 100%;
+}
+
+.booking-form__label {
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; width: 1px; 
+  margin: -1px; padding: 0; border: 0; 
+}
+
+.booking-form__input {
+  width: 1px; 
+  height: 69px;
+  flex-grow: 1;
+  border: solid 1px #e5ddd5;
+  padding-left: 25px;
+  margin-right: 35px;
+  font-family: PT Sans Narrow, sans-serif;
+  font-size: 24px;
+  color: #000000;
+  &::-webkit-input-placeholder {
+    color: #000000;
+  }
+
+  &::-moz-placeholder {
+    color: #000000;
+  }
+
+  &:-ms-input-placeholder {
+    color: #000000;
+  }
+}
+
+.booking-form__textarea {
+  height: 210px;
+  resize: none;
+  padding-top: 18px;
+}
+
+.booking-form__headline {
+  font-family: PT Sans Narrow, sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  &::after {
+    @include headline-underlines;
+    margin-left: 35px;
+  }
+
+  &::before {
+    @include headline-underlines;
+    margin-left: calc(-35px - 26%);
+  }
+}
+
+.booking-form__submit-btn {
+  width: 100%;
+  display: block;
+  margin: 57px auto;
+  height: 70px;
+  background-color: #826550;
+  border: none;
+  cursor: pointer;
+  font-family: PT Sans Narrow, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1240px) {
+  @media (min-width: 768px) {
+    .booking-form__input {
+      margin-right: 0;
+      &:nth-child(2) {
+        border-left: none;
+        border-right: none;
+      }
+    }
+  
+
+    .booking-form__row:nth-child(2) {
+      flex-wrap: wrap;
+      .booking-form__input {
+        flex-basis: 100%;
+        &:last-child {
+          margin-top: 35px;
+        }
+      }
+    }
+  }
+
+  .booking-form__submit-btn {
+    margin-top: 37px;
+  }
+}
+
+@media (max-width: 768px) {
+  .booking-form__form {
+    margin-top: -45px;
+  }
+
+  .booking-form__row {
+    flex-wrap: wrap;
+    &:not(:first-child) {
+      margin-top: 35px;
+    }
+  }
+
+  .booking-form__input {
+    flex-basis: 100%;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+
+  .booking-form__headline::after, .booking-form__headline::before {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .booking-form {
+    position: relative;
+    &::after {
+      @include angle;
+      left: -10.5%;
+      border-top: 35px solid #f8f5f2;
+      border-left: 50.6vw solid transparent;
+      bottom: -92px;
+    }
+
+    &::before {
+      @include angle;
+      right: -10.5%;
+      border-top: 35px solid #f8f5f2;
+      border-right: 50.6vw solid transparent;
+      bottom: -92px;
+    }
+  }
+}

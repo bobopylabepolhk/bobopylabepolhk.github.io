@@ -1,0 +1,38 @@
+@import 'mixins';
+
+.stats-and-advantages {
+  width: 100%;
+  background-color: #353535;
+  position: relative;
+  padding-bottom: 200px;
+  &::after {
+    @include angle;
+    left: 0;
+    border-bottom: 70px solid #f8f5f2;
+    border-right: 50.6vw solid transparent;
+    bottom: 0px;
+  }
+
+  &::before {
+    @include angle;
+    right: 0;
+    border-bottom: 70px solid #f8f5f2;
+    border-left: 50.6vw solid transparent;
+    bottom: 0px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .stats-and-advantages {
+    padding-bottom: 105px;
+  }
+}
+
+@media (max-width: 768px) {
+  .stats-and-advantages {
+    background-color: #242424;
+    padding-bottom: 20px;
+  }
+}
+
+
