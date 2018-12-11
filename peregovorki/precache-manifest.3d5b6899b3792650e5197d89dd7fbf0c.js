@@ -8,16 +8,16 @@ self.__precacheManifest = [
     "url": "/peregovorki/static/js/0.206a2898.chunk.js"
   },
   {
-    "revision": "7081f7cabb8ad8bb3070",
-    "url": "/peregovorki/static/js/main.7081f7ca.chunk.js"
+    "revision": "136e6be0821f64091003",
+    "url": "/peregovorki/static/js/main.136e6be0.chunk.js"
   },
   {
     "revision": "26a0caab182e455e437af04ce0159180",
     "url": "/peregovorki/static/media/Arimo-Bold.26a0caab.woff"
   },
   {
-    "revision": "30d72930b801d54a0d8c",
-    "url": "/peregovorki/static/js/2.30d72930.chunk.js"
+    "revision": "246c6f5ab39fa8621c93",
+    "url": "/peregovorki/static/js/2.246c6f5a.chunk.js"
   },
   {
     "revision": "9f4146cb33028991668d2f4ec77a5fab",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/peregovorki/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "6958f47caccd80735974",
-    "url": "/peregovorki/static/js/5.6958f47c.chunk.js"
+    "revision": "4f33f3d86fb4944b182f",
+    "url": "/peregovorki/static/js/5.4f33f3d8.chunk.js"
   },
   {
     "revision": "6a7c32fdbf4e8d716f3b922bfd576471",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/peregovorki/static/js/7.a44cc6e9.chunk.js"
   },
   {
-    "revision": "93b228b3f14eaa7498ab",
-    "url": "/peregovorki/static/js/runtime~main.93b228b3.js"
+    "revision": "cd7c94230c84e389f506",
+    "url": "/peregovorki/static/js/runtime~main.cd7c9423.js"
   },
   {
     "revision": "cc541a1eacb079d276322b4b252bca33",
@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/peregovorki/static/media/logo--eng.5f59deaf.svg"
   },
   {
-    "revision": "7081f7cabb8ad8bb3070",
-    "url": "/peregovorki/static/css/main.da234a58.chunk.css"
+    "revision": "136e6be0821f64091003",
+    "url": "/peregovorki/static/css/main.6757beb8.chunk.css"
   },
   {
-    "revision": "6958f47caccd80735974",
-    "url": "/peregovorki/static/css/5.6f811eb9.chunk.css"
+    "revision": "4f33f3d86fb4944b182f",
+    "url": "/peregovorki/static/css/5.116b2aa6.chunk.css"
   },
   {
     "revision": "c1d270ecb41056ed62a0",
@@ -80,11 +80,11 @@ self.__precacheManifest = [
     "url": "/peregovorki/static/css/3.e5dad417.chunk.css"
   },
   {
-    "revision": "30d72930b801d54a0d8c",
+    "revision": "246c6f5ab39fa8621c93",
     "url": "/peregovorki/static/css/2.4904b1db.chunk.css"
   },
   {
-    "revision": "9b8c0124ad839d99e5dadb9ac8e4290b",
+    "revision": "03372b2c87a90f1dab4b072780fb0bb0",
     "url": "/peregovorki/index.html"
   }
 ];
