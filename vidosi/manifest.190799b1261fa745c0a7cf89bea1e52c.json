@@ -1,0 +1,22 @@
+{
+  "icons": [
+    {
+      "src": "icon_512x512.c5a1f5c8c3b65b94fbaccc87083f8f90.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_196x196.de3ae5868d3925b341e9e9d1755f48ec.png",
+      "sizes": "196x196",
+      "type": "image/png"
+    }
+  ],
+  "name": "Видосы",
+  "short_name": "Видосы",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "хуй",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
